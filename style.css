@@ -1,6 +1,11 @@
-body,html {
-    background: url(Resource/dylan-nolte-CfN8BZn9jF8-unsplash.jpg) bottom center;
+body {
+    background: url(https://source.unsplash.com/D8CmqdWrFL4) bottom center;
     background-size: cover;
+    color: white;
+}
+
+.btn {
+    color: white;
 }
 
 .display {
@@ -17,6 +22,14 @@ body,html {
     flex-direction: column;
 }
 
-#nav {
-    background-color: #484a4a;
+#navbarNav {
+    border-width: 3px;
+    border-color: white;
 }
+
+.navbar {
+    background-color: black;
+    border-width: 3px;
+    border-color: blanchedalmond;
+}
+
