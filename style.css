@@ -1,0 +1,22 @@
+body,html {
+    background: url(Resource/dylan-nolte-CfN8BZn9jF8-unsplash.jpg) bottom center;
+    background-size: cover;
+}
+
+.display {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.timer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#nav {
+    background-color: #484a4a;
+}
