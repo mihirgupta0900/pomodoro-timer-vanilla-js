@@ -38,7 +38,12 @@ buttons.forEach(button => button.addEventListener('click', startTimer));
 
 document.customForm.addEventListener('submit', function(e) {
     e.preventDefault();
-    const mins = this.minutes.value;
-    timer(mins*60)
-    this.reset();
+    const mins = (this.minutes.value);
+    if (isNaN(mins) == true) {
+        alert('Not a Number!')
+        this.reset();
+    } else {
+        timer(mins*60)
+        this.reset();
+    }
 })
